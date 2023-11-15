@@ -1,0 +1,15 @@
+type Query {
+    user: User
+    users: [User]
+}
+
+type User {
+    id: ID
+    username: String
+    password: String
+}
+
+# type book {
+#     title: String 
+#     author: User
+# }
